@@ -1,0 +1,80 @@
+body{
+	border-top: 3px solid #000000;
+}
+.page-heading{
+	margin-top: 6%;
+	width: 100%;
+}
+.page-heading h2{
+	font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem;
+}
+@media (min-width: 550px) {
+	.page-heading h2{
+		font-size: 3.0rem; 
+	}
+}
+.nav-menu-right{
+	display: block;
+	margin: 40px 0px 10px;
+	text-align: right;
+}
+.nav-menu-right li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+	padding: 5px 5px;
+}
+.nav-menu-right li a{
+	text-decoration: none;
+}
+@media (max-width: 1024px) {
+	.nav-menu-right{
+		margin: 20px 0px 10px;
+		text-align: left;
+		padding: 0px 0px 14px;
+		border-bottom: 1px solid #cccccc;
+	}
+	.nav-menu-right li:first-of-type{
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+	.nav-menu-right li a{
+		font-weight: bold;
+	}
+}
+.contact-top{
+	margin-top: 16px;
+}
+.sec{
+	margin-bottom: 14px;
+	padding-bottom: 14px;
+}
+.sec-last{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+a{color: #000000;}
+a.intr{
+	color: #000000;
+}
+/* Experience */
+.exp{
+
+}
+.exp-company{
+	display: inline-block; margin-right: 10px;
+}
+.exp-local{
+	display: inline-block;
+	color: #5F5F5F;
+}
+.exp-position{
+	display: block;
+}
+.exp-details{
+	margin-top: 18px;
+	padding-left: 36px;
+}
+footer{
+	margin: 60px auto 100px;
+}

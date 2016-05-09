@@ -1,41 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Daniel J. Reinke | Software Engineer, B.S. Computer Science</title>
-  <meta name="description" content="High performing Software Engineer based out of Northern New Jersy who is persuing a Bachelors of Science in Computer Science at Olivet Nazarene University.">
-  <meta name="author" content="Daniel Reinke">
-  <meta name="keywords" content="Daniel J. Reinke, dan reinke, software engineer in northern NJ, software engineering interns at ADP, computer science at Olivet Nazarene University, dan reinke computer science">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-71035288-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
-<body>
+<?php 
+  require 'includes/globals.php';
+  $page_title = "Daniel J. Reinke's Resume | Software Engineer, B.S. Computer Science"; 
+  include 'includes/header.php'; 
+  include 'includes/navigation.php'; 
+?>
   <div class="container">
-  <!-- Nav -->
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <ul class="nav-menu-right">
-      <li><a href="http://danielreinke.com">Resume</a></li>
-      <li><a href="blog">Blog</a></li>
-    </ul>
-  </div>
-  </nav>
-  <!-- End Nav -->
   <header class="page-heading" itemscope itemtype="http://schema.org/Person">
     <div class="row">
       <div class="eight columns">
@@ -55,33 +24,37 @@
     <h4>Technical Expertise</h4>
     <div class="row">
       <div class="four columns"><strong>Programming languages: </strong></div>
-      <div clas="eight columns"><a class="intr" href="https://www.java.com/en/" target="_blank" title="Java">Java</a>, <a class="intr" href="https://msdn.microsoft.com/en-us/library/kx37x362.aspx" target="_blank" title="Visual C#">C#</a>, <a class="intr" href="https://secure.php.net/" target="_blank" title="PHP">PHP</a>, <a class="intr" href="https://www.javascript.com/" target="_blank" title="JavaScript">JavaScript</a>, <a class="intr" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">HTML5</a>, <a class="intr" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">CSS3</a>, <a class="intr" href="http://www.json.org/" target="_blank">JSON</a> & <a class="intr" href="http://www.w3.org/XML/" target="_blank">XML</a></div>
+      <div class="eight columns"><a class="intr" href="https://www.java.com/en/" target="_blank" title="Java">Java</a>, <a class="intr" href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" title="C">C</a>, <a class="intr" href="https://msdn.microsoft.com/en-us/library/kx37x362.aspx" target="_blank" title="Visual C#">C#</a>, <a class="intr" href="https://secure.php.net/" target="_blank" title="PHP">PHP</a>, <a class="intr" href="https://www.javascript.com/" target="_blank" title="JavaScript">JavaScript</a>, <a class="intr" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">HTML5</a>, <a class="intr" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">CSS3</a>, <a class="intr" href="http://www.json.org/" target="_blank">JSON</a> & <a class="intr" href="http://www.w3.org/XML/" target="_blank">XML</a></div>
     </div>
     <div class="row">
       <div class="four columns"><strong>Frameworks/Libraries: </strong></div>
-      <div clas="eight columns">
+      <div class="eight columns">
+      <a href="https://nodejs.org/en/" class="intr" target="_blank" title="Node.js">Node.js</a>,
       <a href="https://jquery.com/" class="intr" target="_blank" title="jQuery">jQuery</a>, 
-      <a href="https://nodejs.org/en/" class="intr" target="_blank" title="Node.js">Node.js</a>, 
       <a href="http://gruntjs.com/" class="intr" target="_blank" title="Grunt">Grunt</a>, 
       <a href="http://asp.net" class="intr" target="_blank" title="ASP.NET">ASP.NET</a>, 
-      <a href="https://www.codeigniter.com/" class="intr" target="_blank" title="CodeIgnighter">CodeIgnighter</a>, 
-      <a href="http://getbootstrap.com/" class="intr" target="_blank" title="Bootstrap">Bootstrap</a></div>
-    </div>
-    <div class="row">
-      <div class="four columns"><strong>Testing Tools:</strong></div>
-      <div clas="eight columns">
+      <a href="https://www.codeigniter.com/" class="intr" target="_blank" title="CodeIgniter">CodeIgniter</a>,
+      <a href="https://symfony.com/" class="intr" target="_blank" title="Symphony">Symphony</a>, 
+      <a href="http://getbootstrap.com/" class="intr" target="_blank" title="Bootstrap">Bootstrap</a>,
       <a href="https://mochajs.org/" class="intr" target="_blank" title="Mocha">Mocha</a>, 
-      <a href="http://eslint.org/" class="intr" target="_blank" title="ESLit">ESLint</a></div>
+      <a href="http://eslint.org/" class="intr" target="_blank" title="ESLit">ESLint</a>,
+      <a href="http://junit.org/junit4/" class="intr" target="_blank" title="jUnit">jUnit</a>,
+      <a href="https://getcomposer.org/" class="intr" target="_blank" title="Composer">Composer</a>,
+      <a href="https://www.vagrantup.com/" class="intr" target="_blank" title="Vagrant">Vagrant</a>,
+      <a href="https://git-scm.com/" class="intr" target="_blank" title="Git">Git</a>,
+      <a href="http://www.vim.org/" class="intr" target="_blank" title="Vim/vi">Vim/vi</a>
+      </div>
     </div>
+      
     <div class="row">
       <div class="four columns"><strong>Database Systems: </strong></div>
-      <div clas="eight columns">
+      <div class="eight columns">
       <a href="https://www.mysql.com/" class="intr" target="_blank" title="MySQL">MySQL</a>, 
       <a href="http://www.microsoft.com/en-us/server-cloud/products/sql-server/" class="intr" target="_blank" title="SQL Server">SQL Server</a></div>
     </div>
     <div class="row">
       <div class="four columns"><strong>Development IDE: </strong></div>
-      <div clas="eight columns">
+      <div class="eight columns">
       <a href="https://eclipse.org/" class="intr" target="_blank" title="Eclipse">Eclipse</a>, 
       <a href="http://www.jgrasp.org/" class="intr" target="_blank" title="JGRASP">JGRASP</a>, 
       <a href="https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx" class="intr" target="_blank" title="Visual Studio 2015">Visual Studio</a>, 
@@ -160,11 +133,7 @@
     <a href="http://olivet.edu" title="Olivet Nazarene University" target="_blank">www.olivet.edu</a><br>
     <em>Bachelor of Science</em>, Computer Science (Expected, 2017)<br>
     Deans List (3 Semseters)<br>
-    Courses: Programming I &amp; II, Software Engineering, Calculus I, Linear Algebra SQL Database Administration, Network Administration</p>
+    Courses: Programming I &amp; II, Software Engineering, Calculus I, Linear Algebra, Systems Programming, SQL Database Administration, Network Administration, Systems Administration</p>
   </section>
-  <footer>
-  <p style="text-align: center; font-size: 12px;">Copyright © 2015 Daniel J. Reinke, <a href="http://danielreinke.com">danielreinke.com</a>. All Rights Reserved. Email: dreink95@gmail.com</p>
-  </footer>
-  </div>
-</body>
-</html>
+</div><!-- /container --> 
+<?php include 'includes/footer.php'; ?>

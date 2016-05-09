@@ -1,8 +1,11 @@
 body{
 	border-top: 3px solid #000000;
 }
+h1, h2, h3, h4, h5, h6{
+	font-weight: 600;
+}
 .page-heading{
-	margin-top: 6%;
+	margin-top: 4%;
 	width: 100%;
 }
 .page-heading h2{
@@ -13,9 +16,15 @@ body{
 		font-size: 3.0rem; 
 	}
 }
+#my-photo{
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 18px auto;
+}
 .nav-menu-right{
 	display: block;
-	margin: 40px 0px 10px;
+	margin: 34px 0px 10px;
 	text-align: right;
 }
 .nav-menu-right li{
@@ -45,6 +54,13 @@ body{
 .contact-top{
 	margin-top: 16px;
 }
+.center{
+	text-align: center;
+}
+.float-center{
+	display: inline-block;
+	margin: auto;
+}
 .sec{
 	margin-bottom: 14px;
 	padding-bottom: 14px;
@@ -56,6 +72,11 @@ body{
 a{color: #000000;}
 a.intr{
 	color: #000000;
+}
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #1e9bda;
+    border-color: #1e9bda;
 }
 /* Experience */
 .exp{
@@ -75,6 +96,29 @@ a.intr{
 	margin-top: 18px;
 	padding-left: 36px;
 }
+.work-entry:first-of-type{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.work-entry{
+	padding: 40px 0px;
+	margin: 25px 0px;
+}
+.work-entry{
+	border-bottom: 1px solid #E1E1E1;
+}
+.work-entry-image{
+	width: 100%;
+	max-width: 100%;
+	box-shadow: 0 0 5.5px rgba(0,0,0,0.2);
+}
+.pre-footer{
+	text-align: center;
+	margin: 60px;
+}
+.pre-footer p{
+	margin-bottom: 2em;
+}
 footer{
-	margin: 60px auto 100px;
+	margin: 60px auto 40px;
 }

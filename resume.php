@@ -17,7 +17,7 @@
         <p><a href="https://www.linkedin.com/in/danreinke" target="_blank">LinkedIn</a></p>
       </div>
     </div>
-    <p><strong>Status:</strong> As of November 26th, 2015, Daniel is searching for internship or employment opportunities.</p>
+    <p><strong>Status:</strong> As of May 1, 2016, Daniel is searching for internship or employment opportunities.</p>
     <hr>
   </header>
   <section id="technical-expertise" class="sec">

@@ -3,4 +3,6 @@
 	$page_desc = "High performing Software Engineer based out of Northern New Jersy who is persuing a Bachelors of Science in Computer Science at Olivet Nazarene University";
 	$email = "dreink95@gmail.com";
 	$phone = "862-324-4100";
+	$base_url = "http://danielreinke.com/";
+	//$base_url = "localhost/danielreinke/";
 ?>

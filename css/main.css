@@ -112,9 +112,17 @@ a.intr{
 	max-width: 100%;
 	box-shadow: 0 0 5.5px rgba(0,0,0,0.2);
 }
+@media (max-width: 550px) {
+	.work-entry:nth-of-type(odd) .work-entry-title{
+		margin-top: 35px;
+	}
+	.work-entry:nth-of-type(even){
+		padding-top: 20px;
+	}
+}
 .pre-footer{
 	text-align: center;
-	margin: 60px;
+	margin: 60px 0px;
 }
 .pre-footer p{
 	margin-bottom: 2em;

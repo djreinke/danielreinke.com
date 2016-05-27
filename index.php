@@ -139,7 +139,7 @@
   </div>
 </section>
 <section class="pre-footer">
-  <p class="center"><strong>Status:</strong> As of May 1, 2016, Daniel is searching for internship or employment opportunities.</p>
+  <!--<p class="center"><strong>Status:</strong> as of May 27th, 2016, Daniel is...</p>-->
   <a class="button button-primary" href="mailto:<?php print $email; ?>">Email Me - <?php print $email; ?></a>
 
 </section>

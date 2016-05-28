@@ -7,7 +7,7 @@
   <meta name="author" content="Daniel Reinke">
   <meta name="keywords" content="Daniel J. Reinke, dan reinke, software engineer in northern NJ, software engineering interns at ADP, computer science at Olivet Nazarene University, dan reinke computer science">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php print $base_url;?>css/normalize.css">
   <link rel="stylesheet" href="<?php print $base_url;?>css/skeleton.css">
